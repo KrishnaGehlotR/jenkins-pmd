@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<BugCollection version='3.0.1' threshold='low'
+	effort='max'>
+	<file classname='com.jenkinspmd.JenkinsPmd'>
+		<BugInstance type='DLS_DEAD_LOCAL_STORE' priority='High'
+			category='STYLE'
+			message='Dead store to jenkinsPmd in com.jenkinspmd.JenkinsPmd.main(String[])'
+			lineNumber='33' />
+		<BugInstance type='DLS_DEAD_LOCAL_STORE' priority='High'
+			category='STYLE'
+			message='Dead store to scanner in com.jenkinspmd.JenkinsPmd.main(String[])'
+			lineNumber='31' />
+		<BugInstance type='DM_DEFAULT_ENCODING' priority='High'
+			category='I18N'
+			message='Found reliance on default encoding in com.jenkinspmd.JenkinsPmd.main(String[]): new java.util.Scanner(InputStream)'
+			lineNumber='31' />
+		<BugInstance type='UPM_UNCALLED_PRIVATE_METHOD'
+			priority='Low' category='PERFORMANCE'
+			message='Private method com.jenkinspmd.JenkinsPmd.testMethod() is never called'
+			lineNumber='44' />
+		<BugInstance type='UPM_UNCALLED_PRIVATE_METHOD'
+			priority='Low' category='PERFORMANCE'
+			message='Private method com.jenkinspmd.JenkinsPmd.testMethods() is never called'
+			lineNumber='40' />
+		<BugInstance type='UUF_UNUSED_FIELD' priority='Normal'
+			category='PERFORMANCE'
+			message='Unused field: com.jenkinspmd.JenkinsPmd.age' lineNumber='-1' />
+		<BugInstance type='UUF_UNUSED_FIELD' priority='Normal'
+			category='PERFORMANCE'
+			message='Unused field: com.jenkinspmd.JenkinsPmd.flag'
+			lineNumber='-1' />
+		<BugInstance type='UUF_UNUSED_FIELD' priority='Normal'
+			category='PERFORMANCE'
+			message='Unused field: com.jenkinspmd.JenkinsPmd.name'
+			lineNumber='-1' />
+	</file>
+	<Error></Error>
+	<Project>
+		<SrcDir>D:\Git\JenkinsPmd\src\main\java</SrcDir>
+		<SrcDir>D:\Git\JenkinsPmd\target\generated-sources\annotations
+		</SrcDir>
+		<SrcDir>D:\Git\JenkinsPmd\src\test\java</SrcDir>
+		<SrcDir>D:\Git\JenkinsPmd\target\generated-test-sources\test-annotations
+		</SrcDir>
+	</Project>
+</BugCollection>
